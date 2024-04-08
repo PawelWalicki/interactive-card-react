@@ -1,0 +1,89 @@
+.infoCard {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 60vh;
+    justify-content: space-evenly;
+}
+
+.paragraphName {
+    height: 1vh;
+    font-weight: 500;
+}
+
+.numberPart {
+    display: flex;
+    flex-direction: column;
+}
+
+.numberPart-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 28vh;
+}
+
+.numberPart-number {
+    display: grid;
+    grid-template-columns: 18% 22% 30%;
+
+}
+
+.inputName {
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsl(0, 0%, 66%);
+    border-radius: 6px;
+    height: 4vh;
+    width: 40vh;
+    cursor:pointer;
+
+}
+.inputName:hover {
+    border-color: hsl(271, 76%, 53%);
+}
+
+.inputName:focus {
+    border-color: hsl(271, 76%, 53%);
+}
+
+/* .inputName:invalid {
+    border-color: hsl(0, 93%, 46%);
+    border-width: 2px;
+} */
+
+
+.inputDate{
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 66%);
+    border-radius: 6px;
+    height: 4vh;
+    width: 8vh;
+    cursor:pointer;
+}
+
+.inputDate:hover {
+    border-color: hsl(271, 76%, 53%);
+    border-width: 2px;
+}
+
+.inputCvc {
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 66%);
+    border-radius: 6px;
+    height: 4vh;
+    width: 16vh;
+    cursor:pointer;
+}
+
+.inputCvc:hover {
+    border-color: hsl(271, 76%, 53%);
+    border-width: 2px;
+}
+
+.inputDate::-webkit-inner-spin-button, .inputDate::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}

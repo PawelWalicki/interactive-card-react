@@ -1,0 +1,25 @@
+.frontCard {
+    width: 400px;
+    height: 240px;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-image: url("http://localhost:3001/bg-card-front.png"); 
+    background-repeat: no-repeat;
+}
+
+.personalCard {
+    font-weight: 600;
+    height: 5vh;
+    width: 44vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.numberCard {
+    font-size: x-large;
+    font-weight: 700;
+}

@@ -1,0 +1,56 @@
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.container {
+    background-image: url("http://localhost:3001/bg-main-desktop.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+@media (max-width: 750px) {
+    .container {
+        background-image: url("http://localhost:3001/bg-main-mobile.png");
+        background-repeat: repeat-x;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        min-width: 600px;
+    }
+}
+
+.viewCard {
+    display: flex;
+    height: 520px;
+    justify-content: space-between;
+    width: 547px;
+    flex-direction: column;
+}
+
+@media (max-width: 750px) {
+    .viewCard {
+        flex-direction:column-reverse;
+    }
+}
+
+.button {
+    width: 68%;
+    border-radius: 6px;
+    color: white;
+    background-color: hsl(270, 57%, 23%);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: hsl(270, 57%, 30%);
+}
+
+.button:active {
+    background-color: hsl(270, 57%, 40%);
+}

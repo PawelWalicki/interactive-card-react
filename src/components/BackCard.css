@@ -1,0 +1,11 @@
+.backCard {
+    width: 400px;
+    height: 280px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    align-items: center;
+    background-image: url("http://localhost:3001/bg-card-back.png");
+    background-repeat: no-repeat;
+}
